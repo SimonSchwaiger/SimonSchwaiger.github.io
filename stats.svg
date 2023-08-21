@@ -1,0 +1,28 @@
+
+<svg fill="none" viewBox="0 0 800 405" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                table, th, td {
+                    border: 0px;
+                    border-collapse: collapse;
+                }
+                img {
+                    width: 99%;
+                }
+            </style>
+            <div style="center: true;">
+                <table>
+                    <tr>
+                        <td><center><img src="https://github-readme-stats.vercel.app/api?username=SimonSchwaiger&amp;show_icons=true&amp;theme=cobalt" alt="GitHub Stats"/></center></td>
+                        <td rowspan="2"><center><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SimonSchwaiger&amp;show_icons=true&amp;theme=cobalt&amp;langs_count=8" alt="Top Languages"/></center></td>
+                    </tr>
+                    <tr>
+                        <td><center><img src="https://streak-stats.demolab.com?user=SimonSchwaiger&amp;theme=vue-dark&amp;hide_border=false&amp;date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/></center></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+  </foreignObject>
+</svg>
+
