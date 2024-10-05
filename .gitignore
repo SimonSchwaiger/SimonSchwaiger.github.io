@@ -1,0 +1,4 @@
+legacy/*
+*.html
+src/img/*
+src/src/*
