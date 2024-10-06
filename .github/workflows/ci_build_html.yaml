@@ -31,7 +31,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "GitHub Actions Bot"
-        git add $(echo *.html)
+        git add -f $(echo *.html)
         if [ -z "$(git status --porcelain)" ]; then
           echo "No changes to commit"
           exit 0
