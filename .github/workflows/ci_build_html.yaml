@@ -3,10 +3,9 @@ name: Build and Publish Website
 on:
   push:
     branches: ["main"]
+    paths-ignore: ["*.html"]
   pull_request:
     branches: ["main"]
-  paths-ignore:
-    *.html
 
 jobs:
   build:
