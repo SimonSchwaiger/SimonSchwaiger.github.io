@@ -1,0 +1,42 @@
+name: Build and Publish Website
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  paths-ignore:
+    *.html
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: pip install -r .github/workflows/requirements.txt
+
+    - name: Run build script
+      run: cd src && python build.py
+
+    - name: Push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "GitHub Actions Bot"
+        git add $(echo *.html)
+        if [ -z "$(git status --porcelain)" ]; then
+          echo "No changes to commit"
+          exit 0
+        git commit -m "Auto uploading built html"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
