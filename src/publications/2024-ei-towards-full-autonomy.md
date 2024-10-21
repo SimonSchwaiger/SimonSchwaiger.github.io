@@ -1,5 +1,5 @@
 <h1 align="center">
-UGV-CBRN: An Unmanned Ground Vehicle for Chemical, Biological, Radiological, and Nuclear Disaster Response
+Towards full Autonomy in Mobile Robot Navigation and Manipulation
 </h1>
 
 <h3 align="center">
