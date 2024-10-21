@@ -1,11 +1,15 @@
 # Teaching Experience
 
+---
+
 This section presents courses I have been involved in while working at UAS Technikum Wien. Apart from the courses listed here, I have supervised student's scientific work, such as Master and Bachelor theses.
 
 </div>
 <div class="w3-card-4 w3-margin w3-white" style="padding: 15pt;">
 
 ## Master Robotics Engineering
+
+---
 
 ### Deployment of Autonomous Robot Systems (VO + Lab)
 
@@ -26,6 +30,8 @@ Project-focussed lab accompanying the theory lecture on computer vision. Present
 
 ## Campus International Programme
 
+---
+
 ### Service and Object-Oriented Algorithms in Robotics (ILV)
 
 **Course developer, coordinator and lecturer** *Winter Term 2022 - Now*
@@ -44,6 +50,8 @@ Introductory course on mobile robots with a focus on control. Students are intro
 <div class="w3-card-4 w3-margin w3-white" style="padding: 15pt;">
 
 ## Bachelor Mechatronics/Robotics
+
+---
 
 ### Scientific Writing and Research Methods (ILV)
 
