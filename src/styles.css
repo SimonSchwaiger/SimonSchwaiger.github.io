@@ -40,6 +40,21 @@ footer {
     bottom: 0;
 }
 
+/* Adjust zoom based on page width to make the page look nicer with high display scaling */
+@media (min-width: 600px) {
+    body {
+        transform: scale(0.9);
+        transform-origin: top center;
+    }
+}
+
+@media (min-width: 960px) {
+    body {
+        transform: scale(0.8);
+        transform-origin: top center;
+    }
+}
+
 body {
       font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #111;
@@ -236,13 +251,12 @@ body {
       color: #24292e;
   }
   
-  h1,
+  /* h1,
   h2,
   h3 {
       border-bottom: 1px solid #eaecef;
       color: #111;
-      /* Darker */
-  }
+  } */
   
   code>* {
       font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
