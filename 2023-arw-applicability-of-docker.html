@@ -45,7 +45,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <li>
           <a href="./publications.html">
-            <button class="w3-button w3-padding-16 w3-white w3-block w3-left-align">
+            <button class="button-highlight w3-button w3-padding-16 w3-white w3-block w3-left-align">
               <img style="height:20px; transform:translate(-50%,-2.5px);" src="./img/icons/document-signed.svg"><span><b>Publications</b></span></b>
             </button>
           </a>
@@ -105,30 +105,61 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Content Class -> Holds one Publication -->
   <div class="w3-card-4 w3-margin w3-white" style="padding: 15pt;">
     
-    <!-- START GENERATED HTML HERE --><h1>About Me</h1>
-<p>Hi there! I’m Simon Schwaiger, a robotics enthusiast with a deep passion for autonomous mobile robots, hardware-accelerated programming and intelligent control. My journey in engineering has been fueled by curiosity and a drive to solve complex problems through innovation.</p>
-<p>I graduated with a Bachelor's degree in <strong>Mechatronics/Robotics</strong> and a Master's degree in <strong>Embedded Systems</strong> at <a href="https://www.technikum-wien.at/">University of Applied Sciences Technikum Wien</a>, where I've been working as a Lecturer and Researcher since March 2020. Since doing an internship at the <a href="https://laboratories.telekom.com/">Telekom Innovation Laboratories in Berlin</a>, my interest in engineering has revolved around modern control approaches in robotics. Currently, I am enrolled as a doctoral student in <strong>Computer Science</strong> at the Graz University of Technology, working on traversability evaluation and control strategies for outdoor mobile robots.</p>
-<h2>What I Do</h2>
-<p>Over the years, I've worked on multiple projects involving robots in the real world. My work has focused on developing algorithms for mobile robots, optimizing control strategies, and designing hardware and software architectures.</p>
-<p>Currently, I am focused on designing and implementing intelligent robotic systems that aim to make a real difference in people’s lives.</p>
-<p>My current work spans:</p>
-<ul>
-<li><p><strong>Data-Driven Robotics</strong>: Developing autonomous systems capable of learning and acting in the real world.</p>
-</li>
-<li><p><strong>Foundation Model Distillation</strong>: Using pretrained foundation models to make robots understand the world and act more intelligently in their environments.</p>
-</li>
-<li><p><strong>Cloud/Web Technologies in Robotics:</strong> Leveraging web technologies such as Docker, Ansible, and Compose to improve usability and maintainability of robotic systems.</p>
-</li>
-<li><p><strong>Learning-Based Control</strong>: Developing algorithms for mobile robots to learn and adapt to their environments.</p>
-</li>
-</ul>
-<p>I try to work in established open-source frameworks and make my work publically available on GitHub. I also like to share my knowledge with others through publications.</p>
-<h2>Outside the Lab</h2>
-<p>When I’m not immersed in coding or building robotic systems, you’ll probably find me working in the garden, woodworking or hiking.</p>
-<p>I believe that staying curious and engaged in the world around me fuels my creativity in tech.</p>
+    <!-- START GENERATED HTML HERE --><h1 align="center">
+On the Applicability of Docker Containers and systemd Services for Search and Rescue Applications
+</h1>
+<h3 align="center">
+Georg Novotny<sup>1</sup>, Simon Schwaiger<sup>2</sup>, Lucas Muster<sup>2</sup>, Mohamed Aburaia<sup>2</sup> and Wilfried Wöber<sup>1</sup>
+</h3>
+<i align="center">
+<p><sup>1</sup> University of Applied Sciences Technikum Wien, Faculty of Industrial Engineering, 1200 Vienna, Austria</p>
+<p><a href="mailto:novotny@technikum-wien.at">novotny@technikum-wien.at</a></p>
+</i>
+<table align="center" style="border-collapse: collapse; max-width: 300pt;">
+  <tr>
+    <td align="middle" style="border: none;">
+      <a href="https://www.joanneum.at/fileadmin/ROBOTICS/ARW_Proceedings/2023_ARW_Proceedings.pdf" style="color: white; font-size: 14pt;">
+        <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
+            <img src="img/document_icon.png" height="14" style="transform:translate(-10%,-1px);"> Paper
+        </div>
+      </a>
+    </td>
+    <td align="middle" style="border: none;">
+      <a href="https://github.com/TW-Robotics/search-and-rescue-robot-2024" style="color: white; font-size: 14pt;">
+        <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
+            <img src="img/logo_github.png" height="14" style="transform:translate(-10%,-1px);"> Code
+        </div>
+      </a>
+    </td>
+    <td align="middle" style="border: none;">
+      <a href="https://www.researchgate.net/publication/370299803_On_the_Applicability_of_Docker_Containers_and_systemd_Services_for_Search_and_Rescue_Applications" style="color: white; font-size: 14pt;">
+        <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
+            <img src="img/logo_arxiv.png" height="14" style="transform:translate(-10%,-1px);"> ArXiv
+        </div>
+      </a>
+    </td>
+  </tr>
+</table>
+<h2 align="center"> Abstract</h2>
+<i align="center">
+<p>The use of robotics in search and rescue operationshas grown in recent years, as these systems have the potentialto greatly improve the efficiency and effectiveness of rescueefforts. However, developing and maintaining robotics systemsfor search and rescue applications can be challenging. Thesesystems often operate in harsh and unpredictable environments,which demands high autonomy and intelligent behavior of therobots. Such robots are developed based on a vast amountof (open source) software solutions, which force robotic engi-neers to focus on systems engineering instead of applicationimplementation. One way to address robot maintenance isto use containerization and service management technologies,such as Docker containers and systemd services, to managethe software and resources on the robotics platform. Dockercontainers allow applications and their dependencies to bepackaged in a portable, isolated environment, while systemdprovides a reliable and flexible way to manage system processes.In addition, monitoring tools can be used to track systemresources and alert human supervisors to potential issues, whiledeployment tools can streamline the process of deploying andmaintaining the robotics platform.This paper tackles the identification and presentation ofuseful tools for robotic system maintenance focusing on searchand rescue robots. We aim to provide a guideline for the roboticsystem maintenance process, and explore the applicability ofDocker containers, systemd services, and other tools for searchand rescue robotics applications. We discuss the benefits andpotential challenges of using these technologies, and provideexamples for application. Through our analysis, we aim toprovide insight into the potential of containerization, servicemanagement, monitoring, and deployment technologies to en-hance the capabilities of search and rescue robotics systems.We hope that our study will simplify the development andmaintenance procedure for robotic system development.</p>
+</i>
 <hr />
-<p>Feel free to explore my <strong>Resume</strong> or <strong>Portfolio</strong> for more details on me. This website also features a summary of my <strong>Publications</strong> and <strong>Teaching Experience</strong>, if you are interested in my work.</p>
-<p>Let’s connect! I’m always open to new opportunities, collaborations, or just a chat about all things robotics.</p>
+<h2>Citation</h2>
+<p>If you use this work in your research, please cite our paper:</p>
+<pre><code class="language-bibtex">@inproceedings{Novotny2023,
+  author    = {Georg Novotny and Simon Schwaiger and Lucas Muster and Mohamed Aburaia and Wilfried W{\&quot;o}ber},
+  editor    = {Andreas Müller and Manfred Nader and Hubert Gattringer},
+  isbn      = {978-3-200-08957-0},
+  journal   = {Proceedings of the Austrian Robotics Workshop},
+  month     = {4},
+  pages     = {19-24},
+  publisher = {Johannes Kepler University},
+  title     = {On the Applicability of Docker Containers and systemd Services for Search and Rescue Applications},
+  url       = {https://www.joanneum.at/fileadmin/ROBOTICS/ARW_Proceedings/2023_ARW_Proceedings.pdf},
+  year      = {2023}
+}
+</code></pre>
 <!-- END GENERATED HTML HERE -->
 
   </div>
