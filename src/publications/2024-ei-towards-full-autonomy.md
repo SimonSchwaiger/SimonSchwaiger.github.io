@@ -26,7 +26,7 @@ This work was supported by the city of Vienna (MA23 – Economic Affairs, Labour
 <table align="center" style="border-collapse: collapse; max-width: 100pt;">
   <tr>
     <td align="middle" style="border: none;">
-      <a href="" style="color: white; font-size: 14pt;">
+      <a href="https://www.researchgate.net/publication/385113816_Towards_full_autonomy_in_mobile_robot_navigation_and_manipulationZur_vollstandigen_Autonomie_in_mobiler_Roboternavigation_und_-manipulation" style="color: white; font-size: 14pt;">
         <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
             <img src="img/document_icon.png" height="14" style="transform:translate(-10%,-1px);"> Paper
         </div>
@@ -56,5 +56,15 @@ We make Code and Datasets available through our other publications.
 If you use this work in your research, please cite our paper:
 
 ```bibtex
-Coming Soon!
+@article{SchwaigerMuster2024TowardsFullAutonomy,
+  author    = {Schwaiger, Simon and Muster, Lucas and Scherl, Alessandro and Trivisonne, Paolo and W{\"o}ber, Wilfried and Thalhammer, Stefan},
+  title     = {Towards full autonomy in mobile robot navigation and manipulation},
+  journal   = {e+i Elektrotechnik und Informationstechnik},
+  volume    = {141},
+  number    = {6},
+  year      = {2024},
+  month     = {Oct},
+  publisher = {Springer Nature},
+  address   = {Heidelberg, Germany}
+}
 ```
