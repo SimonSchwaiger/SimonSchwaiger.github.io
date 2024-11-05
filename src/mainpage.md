@@ -1,14 +1,12 @@
 # About Me
 
-Hi there! I’m Simon Schwaiger, a robotics enthusiast with a deep passion for autonomous mobile robots, hardware-accelerated programming and intelligent control. My journey in engineering has been fueled by curiosity and a drive to solve complex problems through innovation.
+Hi there! &#128075; I’m Simon Schwaiger, a robotics enthusiast with a passion for autonomous mobile robots, hardware-accelerated programming and intelligent control. &#128295;
 
-I graduated with a Bachelor's degree in **Mechatronics/Robotics** and a Master's degree in **Embedded Systems** at [University of Applied Sciences Technikum Wien](https://www.technikum-wien.at/), where I've been working as a Lecturer and Researcher since March 2020. Since doing an internship at the [Telekom Innovation Laboratories in Berlin](https://laboratories.telekom.com/), my interest in engineering has revolved around modern control approaches in robotics. Currently, I am enrolled as a doctoral student in **Computer Science** at the Graz University of Technology, working on traversability evaluation and control strategies for outdoor mobile robots.
+I graduated with a Bachelor's degree in **Mechatronics/Robotics** &#129302; and a Master's degree in **Embedded Systems** &#127899; at [University of Applied Sciences Technikum Wien](https://www.technikum-wien.at/), where I've been working as a Lecturer and Researcher since March 2020. Since doing an internship at the [Telekom Innovation Laboratories in Berlin](https://laboratories.telekom.com/), my interest in engineering has revolved around modern control approaches in robotics. Currently, I am enrolled as a doctoral student in **Computer Science** &#128187; at the [Graz University of Technology](https://www.tugraz.at/home), working on traversability evaluation and control strategies for outdoor mobile robots.
 
 ## What I Do
 
 Over the years, I've worked on multiple projects involving robots in the real world. My work has focused on developing algorithms for mobile robots, optimizing control strategies, and designing hardware and software architectures.
-
-Currently, I am focused on designing and implementing intelligent robotic systems that aim to make a real difference in people’s lives. 
 
 My current work spans:
 
