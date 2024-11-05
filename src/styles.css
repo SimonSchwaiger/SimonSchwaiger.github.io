@@ -46,14 +46,18 @@ footer {
         transform: scale(0.9);
         transform-origin: top center;
     }
+    footer {
+        position: relative; /* Hack to get somewhat sticky footer without display flex */
+        bottom: -200px;
+    }
 }
 
-@media (min-width: 960px) {
+/* @media (min-width: 960px) {
     body {
         transform: scale(0.8);
         transform-origin: top center;
     }
-}
+} */
 
 body {
       font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
