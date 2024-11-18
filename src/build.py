@@ -33,6 +33,10 @@ configPublications = {
         "2024-ei-towards-full-autonomy.md",
         "2024-icra40-from-words-to-poses.md",
         "2023-arw-applicability-of-docker.md",
+        "2022-arw-deep-rl-continuous-control.md",
+        "2021-daam-explainable-ai-for-robot-arm-control.md",
+        "2021-arw-open-loop-robot-control-using-dqn.md",
+        "2020-ei-evaluation-of-navigation-methodologies-for-mobile-robots.md",
     ],
 
     "title": [
@@ -76,7 +80,7 @@ configPublications = {
         "Continuous trajectory planning for 7DOF robots using various reinforcement learning algorithmns.",
         "Explainability examination of models performing discrete trajectory planning for 3DOF robots using policy iteration.",
         "Discrete trajectory planning for 3DOF robots using multi-goal reinforcement learning.",
-        "Presentation of TODO",
+        "Presentation of current research in the Technikum Digital Factory.",
     ],
 
     "thumbnail": [ ## Just add empty paths if you want to ommit a thumbnail
@@ -85,6 +89,7 @@ configPublications = {
         "./img/pub_thumbnail_2024-icra40-from-words-to-poses.png",
         "./img/pub_thumbnail_arw-applicability-of-docker.png",
         "",  
+        "",
         "",
         "",
     ]
