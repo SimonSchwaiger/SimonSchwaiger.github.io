@@ -24,8 +24,6 @@ I try to work in established open-source frameworks and make my work publically 
 
 When I’m not immersed in coding or building robotic systems, you’ll probably find me working in the garden, woodworking or hiking.
 
-I believe that staying curious and engaged in the world around me fuels my creativity in tech.
-
 ---
 
 Feel free to explore my **Resume** or **Portfolio** for more details on me. This website also features a summary of my **Publications** and **Teaching Experience**, if you are interested in my work.

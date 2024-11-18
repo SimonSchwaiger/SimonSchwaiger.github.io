@@ -30,7 +30,7 @@ A PDF version of my CV can be downloaded below.
 
 - Research in semantic mapping and planning methodologies in data-driven robotics.
 - Combination of recent generative and foundation models with traditional robot control methodologies.
-- Course developer, coordinator and lecturer in Master Robotics Engineering, Campus International and various Bachelor Mechatronics/Robotics programmes.
+- Course developer, coordinator and lecturer in Master Robotics Engineering, Campus International and Bachelor Mechatronics/Robotics programs.
 - Supervision of Master's and Bachelor's theses, conducting of Master's and Bachelor's exams.
 
 **MA23 Project DrohnFH**: Practical integration of UAVs into electronic and mechatronic engineering courses.
@@ -53,13 +53,13 @@ A PDF version of my CV can be downloaded below.
 
 - Joint research with University of Technology Berlin
 - Integration of learning-based control methods into service and industrial robots
-- Develpment and conducting of entry level robotics workshops
+- Development and conducting of entry level robotics workshops
 
 ---
 
 ### LEDERER Boutique Hotel, Kaprun, Austria
 
-**Multifunctional Personel** *July 2017 - September 2019*
+**Multifunctional Personnel** *July 2017 - September 2019*
 
 - Configuration of IT equipment, Assistance with bookkeeping
 - Service tasks at front desk, hotel bar and hotel kitchen
