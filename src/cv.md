@@ -26,7 +26,7 @@ A PDF version of my CV can be downloaded below.
 
 **Lecturer/Researcher**  *October 2024 - Today*
 
-**Junior Lecturer/Researcher** *March 202 - September 2024*
+**Junior Lecturer/Researcher** *March 2020 - September 2024*
 
 - Research in semantic mapping and planning methodologies in data-driven robotics.
 - Combination of recent generative and foundation models with traditional robot control methodologies.
