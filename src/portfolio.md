@@ -11,9 +11,9 @@ A lightweight time-discrete mobile robot simulator for ROS 2. It can reconstruct
 
 <h2><a href="https://github.com/SimonSchwaiger/ros-ml-container" target=”_blank”>ROS Machine Learning Container</a></h2>
 
-Docker-based ROS development environment combining scientific computing frameworks such as PyTorch and Scikit-Learn with ROS (2), making the workspace somewhat portable. Additionally, graphics acceleration methods can be set based on your GPU's vendor. It bridges the gap between modern Python and web tools and robotics applications.
+Docker-based ROS development environment combining scientific computing frameworks such as PyTorch and Scikit-Learn with ROS (2), making the workspace somewhat portable. Additionally, graphics acceleration methods can be set based on your GPU's vendor. It bridges the gap between modern Python, web tools and robotics applications.
 
-This workspace was originally created for my master thesis, but is now used by students and lecturers at UAS Technikum Wien's robotics group and serves as the basis of my homelab's machine learning instances. Common configurations are pre-build using GitHub workflows and hosted in the GitHub Container Registry.
+This workspace was originally created for my master thesis, but is now used by students and lecturers at UAS Technikum Wien's robotics group and serves as the basis of my homelab's machine learning instances. Common configurations are pre-build using GitHub workflows and hosted in the GitHub container registry.
 <center><img src="./img/projects/mlContainerDemo.png" alt="ROS ML Container Demo" style="max-width: 70%" /></center>
 
 ---
@@ -45,7 +45,7 @@ A search and rescue robot for exploring disaster vicinities, radiation mapping a
 
 ## ODIN Robot
 
-**O**bjective-**D**riven **I**ntelligent **N**avigator is an autonomous outdoor robot for logustics duties around the UAS Technikum campus and in agricultural use cases. My main role on this robot was the conversion of the original teleoperated chassis to full Lidar-based autonomy, including reverse-engingeering the electronics, changing the main control board and converting the controller to use the robot operating system (ROS).
+**O**bjective-**D**riven **I**ntelligent **N**avigator is an autonomous outdoor robot for logistics duties around the UAS Technikum campus and in agricultural use cases. My main role on this robot was the conversion of the original teleoperated chassis to full Lidar-based autonomy, including reverse-engingeering the electronics, changing the main control board and converting the controller to use the robot operating system (ROS).
 <center><img src="./img/projects/ODIN_white_background.png" alt="ROS ML Container Demo" style="max-width: 25%" /></center>
 
 ---
