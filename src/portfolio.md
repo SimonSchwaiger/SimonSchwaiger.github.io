@@ -41,19 +41,19 @@ The AIAV (AI Anwenden und Verstehen) research project aims to explain fundamenta
 
 ---
 
-<h2><a href="https://github.com/SimonSchwaiger/tinysim-2d" target=”_blank”>Tinysim</a></h2>
-
-A lightweight time-discrete mobile robot simulator for ROS 2. It can reconstruct simulation scenes from recorded sensor data (3D or 2D maps) and simulate various laser scanners and depth sensors using Open3D as the underlying engine.
-<center><img src="./img/projects/tinysimDemo.gif" alt="Simulator Demo" style="max-width: 70%" /></center>
-
----
-
 <h2><a href="https://github.com/SimonSchwaiger/ros-ml-container" target=”_blank”>ROS Machine Learning Container</a></h2>
 
 Docker-based ROS development environment combining scientific computing frameworks such as PyTorch and Scikit-Learn with ROS (2), making the workspace somewhat portable. Additionally, graphics acceleration methods can be set based on your GPU's vendor. It bridges the gap between modern Python, web tools and robotics applications.
 
 This workspace was originally created for my master thesis, but is now used by students and lecturers at UAS Technikum Wien's robotics group and serves as the basis of my homelab's machine learning instances. Common configurations are pre-build using GitHub workflows and hosted in the GitHub container registry.
 <center><img src="./img/projects/mlContainerDemo.png" alt="ROS ML Container Demo" style="max-width: 70%" /></center>
+
+---
+
+<h2><a href="https://github.com/SimonSchwaiger/tinysim-2d" target=”_blank”>Tinysim</a></h2>
+
+A lightweight time-discrete mobile robot simulator for ROS 2. It can reconstruct simulation scenes from recorded sensor data (3D or 2D maps) and simulate various laser scanners and depth sensors using Open3D as the underlying engine.
+<center><img src="./img/projects/tinysimDemo.gif" alt="Simulator Demo" style="max-width: 70%" /></center>
 
 ---
 
