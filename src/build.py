@@ -29,6 +29,8 @@ configStatic = {
 ## DYNAMIC PUBLICATION PAGE
 configPublications = {
     "src": [
+        "2025-otas.md",
+        "2025-drone-robotics-courses.md",
         "2024-ugv-cbrn.md",
         "2024-ei-towards-full-autonomy.md",
         "2024-icra40-from-words-to-poses.md",
@@ -40,7 +42,9 @@ configPublications = {
     ],
 
     "title": [
-        "UGV-CBRN: An Unmanned Ground Vehicle for Chemical, Biological, Radiological, and Nuclear Disaster Response",
+        "OTAS: Open-vocabulary Token Alignment for Outdoor Segmentation*",
+        "Drones in Electronics Engineering and AI-Driven Robotics Courses: Hands-on Lab Concepts",
+        "UGV-CBRN: An Unmanned Ground Vehicle for Chemical, Biological, Radiological, and Nuclear Disaster Response*",
         "Towards full Autonomy in Mobile Robot Navigation and Manipulation",
         "From Words to Poses: Enhancing Novel Object Pose Estimation with Vision Language Models",
         "On the Applicability of Docker Containers and systemd Services for Search and Rescue Applications",
@@ -51,6 +55,8 @@ configPublications = {
     ],
 
     "author": [
+        "Simon Schwaiger, Stefan Thalhammer, Wilfried Wöber, Gerald Steinbauer-Wagner",
+        "Florian Wimmer, Simon Schwaiger, Christian Fibich",
         "Simon Schwaiger&ast;, Lucas Muster&ast;, Georg Novotny, Michael Schebek, Wilfried Wöber, Stefan Thalhammer, Christoph Böhm",
         "Simon Schwaiger&ast;, Lucas Muster&ast;, Alessandro Scherl, Paolo Trivisonne, Wilfried Wöber, Stefan Thalhammer",
         "Tessa Pulli, Stefan Thalhammer, Simon Schwaiger, Markus Vincze",
@@ -62,6 +68,8 @@ configPublications = {
     ],
 
     "published": [
+        "ArXiv, 2025",
+        "Proceedings of the 2025 IEEE Global Engineering Education Conference (EDUCON)",
         "ArXiv, 2024",
         "e+i Elektrotechnik und Informationstechnik, 2024",
         "Proceedings of IEEE ICRA@40, 2024",
@@ -73,6 +81,8 @@ configPublications = {
     ],
 
     "description": [
+        "Open-language 2D segmentation and 3D reconstruction for in the wild outdoor robots.",
+        "Real-world deployment of drone hardware and software in electronics engineering and robotics courses.",
         "Integration and field test of disaster response mobile robot in cooperation with the Austrian Armed Forces.",
         "Showcase of data-driven robotics research at UAS Technikum to increase autonomy of robots in real world scenarios.",
         "Advancing zero-shot 6D object pose estimation by leveraging geometric and semantic reconstruction with neural radiance fields.",
@@ -84,6 +94,8 @@ configPublications = {
     ],
 
     "thumbnail": [ ## Just add empty paths if you want to ommit a thumbnail
+        "./img/pub_thumbnail_2025-otas.gif",
+        "./img/pub_thumbnail_2025-educon-drones-education.png",
         "./img/pub_thumbnail_2024-ugv-cbrn.gif",
         "./img/pub_thumbnail_2024-ei-towards-full-autonomy.png",
         "./img/pub_thumbnail_2024-icra40-from-words-to-poses.png",

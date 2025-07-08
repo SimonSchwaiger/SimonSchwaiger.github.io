@@ -58,5 +58,10 @@ pose estimators determine poses without prior knowledge. Recently, vision langua
 If you use this work in your research, please cite our paper:
 
 ```bibtex
-Coming soon!
+@misc{Pulli2024FromWords,
+    title               = {From Words to Poses: Enhancing Novel Object Pose Estimation with Vision Language Models. \textit{arXiv preprint arXiv:2409.05413}}, 
+    author              = {Tessa Pulli and Stefan Thalhammer and Simon Schwaiger and Markus Vincze},
+    year                = {2024},
+    url                 = {https://arxiv.org/abs/2409.05413}
+}
 ```
