@@ -16,7 +16,7 @@ A PDF version of my CV can be downloaded below.
 
 ## Professional Experience
 
-**Career Summary**: Robotics Researcher and Lecturer with a focus on autonomous mobile robot software. Prior experience revolves around artificial intelligence paradigms such as machine learning, deep learning, search and reasoning in the domain of robotics. I bring a strong academic background in data-driven robotics with multiple publications in peer-reviewed conference proceedings and journals.
+**Career Summary**: Robotics researcher and lecturer with a focus on data-driven mobile robot systems and AI-based autonomy. Experience spans full-stack development of autonomous robots from sensor data to learned behaviour, with strong emphasis on reproducibility, foundation models, and semantic mapping.
 
 ---
 
@@ -28,8 +28,8 @@ A PDF version of my CV can be downloaded below.
 
 **Junior Lecturer/Researcher** *March 2020 - September 2024*
 
-- Research in semantic mapping and planning methodologies in data-driven robotics.
-- Combination of recent generative and foundation models with traditional robot control methodologies.
+- Academic research in semantic mapping and data-driven control for mobile robots.
+- Applied recent generative and foundation models in combination with traditional mapping and navigation.
 - Course developer, coordinator and lecturer in Master Robotics Engineering, Campus International and Bachelor Mechatronics/Robotics programs.
 - Supervision of Master's and Bachelor's theses, conducting of Master's and Bachelor's exams.
 
@@ -51,7 +51,7 @@ A PDF version of my CV can be downloaded below.
 
 **Intern** *September 2019 - December 2019*
 
-- Joint research with University of Technology Berlin
+- Joint research with University of Technology Berlin, Department of Industry Grade Networks and Clouds
 - Integration of learning-based control methods into service and industrial robots
 - Development and conducting of entry level robotics workshops
 
@@ -59,10 +59,10 @@ A PDF version of my CV can be downloaded below.
 
 ### LEDERER Boutique Hotel, Kaprun, Austria
 
-**Multifunctional Personnel** *July 2017 - September 2019*
+**All-Rounder in Hotel Operations** *July 2017 - September 2019*
 
-- Configuration of IT equipment, Assistance with bookkeeping
-- Service tasks at front desk, hotel bar and hotel kitchen
+- Configured IT equipment and supported bookkeeping
+- Operational responsibilities at front desk, hotel bar and hotel kitchen
 - Creation of marketing material, Event organisation
 
 </div>
