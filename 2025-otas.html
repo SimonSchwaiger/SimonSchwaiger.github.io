@@ -106,34 +106,35 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-card-4 w3-margin w3-white" style="padding: 15pt;">
     
     <!-- START GENERATED HTML HERE --><h1 align="center">
-From Words to Poses: Enhancing Novel Object Pose Estimation with Vision Language Models
+OTAS: Open-vocabulary Token Alignment for Outdoor Segmentation
 </h1>
 <h3 align="center">
-Tessa Pulli<sup>1</sup>, Stefan Thalhammer<sup>2</sup>, Simon Schwaiger<sup>2</sup> and Markus Vincze<sup>1</sup>
+Simon Schwaiger<sup>1,2</sup>, Stefan Thalhammer<sup>2</sup>, Wilfried Wöber<sup>2</sup> and Gerald Steinbauer-Wagner<sup>1</sup>
 </h3>
 <i align="center">
-<p><sup>1</sup> Vision for Robotics Laboratory, Automation and Control Institute, TU Wien, Austria</p>
-<p><sup>2</sup> University of Applied Sciences Technikum Wien, Faculty of Industrial Engineering, 1200 Vienna, Austria</p>
-<p><a href="mailto:pulli@acin.tuwien.ac.at">pulli@acin.tuwien.ac.at</a></p>
+<p>This work was supported by the city of Vienna (MA23 – Economic Affairs, Labour and Statistics) through the project Stadt Wien Kompetenzteam für Drohnentechnik in der Fachhochschulausbildung (DrohnFH, MA23 project 35-02).</p>
+<p><sup>1</sup> Graz University of Technology, Faculty of Computer Science and Biomedical Engineering, Institute of Software Engineering and Artificial Intelligence, Inffeldgasse 16b/II, 8010 Graz, Austria</p>
+<p><sup>2</sup> University of Applied Sciences Technikum Wien, Faculty of Industrial Engineering, Research Group Digital Manufacturing, Automation and Robotics, 1200 Vienna, Austria</p>
+<p><a href="mailto:schwaige@technikum-wien.at">schwaige@technikum-wien.at</a></p>
 </i>
 <table align="center" style="border-collapse: collapse; max-width: 300pt;">
   <tr>
     <td align="middle" style="border: none;">
-      <a href="https://arxiv.org/pdf/2409.05413" style="color: white; font-size: 14pt;">
+      <a href="https://github.com/SimonSchwaiger/SimonSchwaiger.github.io/tree/main/img/preprints/2025_otas_arxiv_version.pdf" style="color: white; font-size: 14pt;">
         <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
             <img src="img/document_icon.png" height="14" style="transform:translate(-10%,-1px);"> Paper
         </div>
       </a>
     </td>
     <td align="middle" style="border: none;">
-      <a href="" style="color: white; font-size: 14pt;">
+      <a href="https://github.com/SimonSchwaiger/SimonSchwaiger.github.io/tree/main/img/preprints/2025_otas_arxiv_version.pdf" style="color: white; font-size: 14pt;">
         <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
             <img src="img/logo_github.png" height="14" style="transform:translate(-10%,-1px);"> Code
         </div>
       </a>
     </td>
     <td align="middle" style="border: none;">
-      <a href="https://arxiv.org/abs/2409.05413" style="color: white; font-size: 14pt;">
+      <a href="https://github.com/SimonSchwaiger/SimonSchwaiger.github.io/tree/main/img/preprints/2025_otas_arxiv_version.pdf" style="color: white; font-size: 14pt;">
         <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
             <img src="img/logo_arxiv.png" height="14" style="transform:translate(-10%,-1px);"> arXiv
         </div>
@@ -141,20 +142,18 @@ Tessa Pulli<sup>1</sup>, Stefan Thalhammer<sup>2</sup>, Simon Schwaiger<sup>2</s
     </td>
   </tr>
 </table>
+<div style="max-width: 800px; margin: auto;", align="center">
+  <img src="./img/otas_contrib_demo.gif" alt="OTAS Capability Overview GIF" width="48%">
+  <img src="./img/otas_experiments_demo.gif" alt="OTAS Semantic Mapping Demo GIF" width="48%">
+</div>
 <h2 align="center"> Abstract</h2>
 <i align="center">
-<p>Robots are increasingly envisioned to interact in real-world scenarios, where they must continuously adapt to new situations. To detect and grasp novel objects, zero-shot
-pose estimators determine poses without prior knowledge. Recently, vision language models (VLMs) have shown considerable advances in robotics applications by establishing an understanding between language input and image input. In our work, we take advantage of VLMs zero-shot capabilities and translate this ability to 6D object pose estimation. We propose a novel framework for promptable zero-shot 6D object pose estimation using language embeddings. The idea is to derive a coarse location of an object based on the relevancy map of a language-embedded NeRF reconstruction and to compute the pose estimate with a point cloud registration method. Additionally, we provide an analysis of LERF’s suitability for open-set object pose estimation. We examine hyperparameters, such as activation thresholds for relevancy maps and investigate the zero-shot capabilities on an instance- and category-level. Furthermore, we plan to conduct robotic grasping experiments in a real-world setting.</p>
+<p>Understanding open-world semantics is critical for robotic planning and control, particularly in unstructured outdoor environments. Current vision-language mapping approaches rely on object-centric segmentation priors, which often fail outdoors due to semantic ambiguities and indistinct semantic class boundaries. We propose OTAS—an Open-vocabulary Token Alignment method for Outdoor Segmentation. OTAS overcomes the limitations of open-vocabulary segmentation models by extracting semantic structure directly from the output tokens of pretrained vision models. By clustering semantically similar structures across single and multiple views and grounding them in language, OTAS reconstructs a geometrically consistent feature field that supports open-vocabulary segmentation queries. Our method operates zero-shot, without scene-specific fine-tuning, and runs at up to ≈17 fps. OTAS provides a minor IoU improvement over fine-tuned and open-vocabulary 2D segmentation methods on the Off-Road Freespace Detection dataset. Our model achieves up to a 151% IoU improvement over open-vocabulary mapping methods in 3D segmentation on TartanAir. Real-world reconstructions demonstrate OTAS’ applicability to robotic applications. The code and ROS node will be made publicly available upon paper acceptance.</p>
 </i>
 <hr />
 <h2>Citation</h2>
 <p>If you use this work in your research, please cite our paper:</p>
-<pre><code class="language-bibtex">@misc{Pulli2024FromWords,
-    title               = {From Words to Poses: Enhancing Novel Object Pose Estimation with Vision Language Models. \textit{arXiv preprint arXiv:2409.05413}}, 
-    author              = {Tessa Pulli and Stefan Thalhammer and Simon Schwaiger and Markus Vincze},
-    year                = {2024},
-    url                 = {https://arxiv.org/abs/2409.05413}
-}
+<pre><code class="language-bibtex">Coming Soon!
 </code></pre>
 <!-- END GENERATED HTML HERE -->
 
