@@ -14,11 +14,11 @@ This work was funded by the City of Vienna via the project ”Stadt Wien Kompete
 
 <sup>2</sup> University of Applied Sciences Technikum Wien, Faculty of Industrial Engineering, 1200 Vienna, Austria
 
-<a href="mailto:schwaige@technikum-wien.at">florian.wimmer@technikum-wien.at</a>
+<a href="mailto:florian.wimmer@technikum-wien.at">florian.wimmer@technikum-wien.at</a>
 
 </i>
 
-<table align="center" style="border-collapse: collapse; max-width: 300pt;">
+<table align="center" style="border-collapse: collapse; max-width: 200pt;">
   <tr>
     <td align="middle" style="border: none;">
       <a href="https://ieeexplore.ieee.org/abstract/document/11016660/" style="color: white; font-size: 14pt;">
