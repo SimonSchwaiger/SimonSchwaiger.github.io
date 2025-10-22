@@ -74,6 +74,18 @@ Introduction to autonomous mobile robot control including kinematics, global pla
 
 ---
 
+* #### Vision-Language Maps: A Scalable Dense Semantic SLAM Implementation
+    
+    **Florian Zeinler** *Master's Thesis 2025*
+
+---
+
+* #### Distributed Hybrid Flocking and Formation Control with Obstacle Avoidance for Fixed-Wing UAV Swarm Task Execution
+    
+    **Wolfgang Bolz** *Master's Thesis 2025*
+
+---
+
 * #### Vision Language Model Fine-Tuning for Industrial Image Classification
     
     **Johannes Friedl** *Bachelor's Thesis 2025*
@@ -118,4 +130,4 @@ Introduction to autonomous mobile robot control including kinematics, global pla
 
 * #### Auswirkung der Umrüstung von Industrierobotern auf kollaborative Systeme
 
-    **Lucas Pammer** *Bachelor Thesis's 2023*
+    **Lucas Pammer** *Bachelor's Thesis 2023*
