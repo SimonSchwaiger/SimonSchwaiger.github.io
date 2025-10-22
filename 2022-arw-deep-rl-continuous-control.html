@@ -106,36 +106,21 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-card-4 w3-margin w3-white" style="padding: 15pt;">
     
     <!-- START GENERATED HTML HERE --><h1 align="center">
-From Words to Poses: Enhancing Novel Object Pose Estimation with Vision Language Models
+Deep Reinforcement Learning for Continuous Robot Trajectory Control
 </h1>
 <h3 align="center">
-Tessa Pulli<sup>1</sup>, Stefan Thalhammer<sup>2</sup>, Simon Schwaiger<sup>2</sup> and Markus Vincze<sup>1</sup>
+Simon Schwaiger<sup>1</sup>, Mohamed Aburaia<sup>1</sup>, Lucas Muster<sup>1</sup>, Moritz Abdank<sup>1</sup> and Wilfried Wöber<sup>1</sup>
 </h3>
 <i align="center">
-<p><sup>1</sup> Vision for Robotics Laboratory, Automation and Control Institute, TU Wien, Austria</p>
-<p><sup>2</sup> University of Applied Sciences Technikum Wien, Faculty of Industrial Engineering, 1200 Vienna, Austria</p>
-<p><a href="mailto:pulli@acin.tuwien.ac.at">pulli@acin.tuwien.ac.at</a></p>
+<p><sup>1</sup> University of Applied Sciences Technikum Wien, Faculty of Industrial Engineering, 1200 Vienna, Austria</p>
+<p><a href="mailto:novotny@technikum-wien.at">schwaige@technikum-wien.at</a></p>
 </i>
-<table align="center" style="border-collapse: collapse; max-width: 300pt;">
+<table align="center" style="border-collapse: collapse; max-width: 100pt;">
   <tr>
     <td align="middle" style="border: none;">
-      <a href="https://arxiv.org/pdf/2409.05413" style="color: white; font-size: 14pt;">
+      <a href="https://www.researchgate.net/publication/363480631_Deep_Reinforcement_Learning_for_Continuous_Robot_Trajectory_Control" style="color: white; font-size: 14pt;">
         <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
             <img src="img/document_icon.png" height="14" style="transform:translate(-10%,-1px);"> Paper
-        </div>
-      </a>
-    </td>
-    <td align="middle" style="border: none;">
-      <a href="" style="color: white; font-size: 14pt;">
-        <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
-            <img src="img/logo_github.png" height="14" style="transform:translate(-10%,-1px);"> Code
-        </div>
-      </a>
-    </td>
-    <td align="middle" style="border: none;">
-      <a href="https://arxiv.org/abs/2409.05413" style="color: white; font-size: 14pt;">
-        <div style="background-color: #363636; border-radius: 50px; padding: 10px 20px; color: white; width: 80pt;">
-            <img src="img/logo_arxiv.png" height="14" style="transform:translate(-10%,-1px);"> arXiv
         </div>
       </a>
     </td>
@@ -143,18 +128,12 @@ Tessa Pulli<sup>1</sup>, Stefan Thalhammer<sup>2</sup>, Simon Schwaiger<sup>2</s
 </table>
 <h2 align="center"> Abstract</h2>
 <i align="center">
-<p>Robots are increasingly envisioned to interact in real-world scenarios, where they must continuously adapt to new situations. To detect and grasp novel objects, zero-shot
-pose estimators determine poses without prior knowledge. Recently, vision language models (VLMs) have shown considerable advances in robotics applications by establishing an understanding between language input and image input. In our work, we take advantage of VLMs zero-shot capabilities and translate this ability to 6D object pose estimation. We propose a novel framework for promptable zero-shot 6D object pose estimation using language embeddings. The idea is to derive a coarse location of an object based on the relevancy map of a language-embedded NeRF reconstruction and to compute the pose estimate with a point cloud registration method. Additionally, we provide an analysis of LERF’s suitability for open-set object pose estimation. We examine hyperparameters, such as activation thresholds for relevancy maps and investigate the zero-shot capabilities on an instance- and category-level. Furthermore, we plan to conduct robotic grasping experiments in a real-world setting.</p>
+<p>Trajectory control is fundamental to any robot application. Probabilistic path planning aims to solve trajectory control without focusing on a specific robot type. Similarly, reinforcement learning has been applied to robot control tasks with the goal of having problems of different nature be solved by the same agent. However, tested reinforcement learning models directly generate actuator control signals from sensor input. Due to the end-to-end nature of proposed implementations, trajectory and closed loop control are performed by the same model. We want to increase modularity in reinforcement learning-based robot control pipelines by solving trajectory and closed loop control separately from each other. Therefore, we formulate a continuous robot trajectory control problem as a reinforcement learning environment and evaluate agent performance for multiple environment configurations. Using this problem formulation, an agent is able to learn robot kinematics in simulation and determine joint trajectories. We deploy multi-goal reinforcement learning in order to allow agents to plan movement from an arbitrary start pose to an arbitrary goal pose without requiring a dedicated training procedure. The problem formulation is evaluated by training recent for continuous control and documenting agent performance. The results show, that continuous trajectory control can be achieved by the presented methods, allowing an agent to learn the kinematics of a six degree of freedom robot.</p>
 </i>
 <hr />
 <h2>Citation</h2>
 <p>If you use this work in your research, please cite our paper:</p>
-<pre><code class="language-bibtex">@misc{Pulli2024FromWords,
-    title               = {From Words to Poses: Enhancing Novel Object Pose Estimation with Vision Language Models. \textit{arXiv preprint arXiv:2409.05413}}, 
-    author              = {Tessa Pulli and Stefan Thalhammer and Simon Schwaiger and Markus Vincze},
-    year                = {2024},
-    url                 = {https://arxiv.org/abs/2409.05413}
-}
+<pre><code class="language-bibtex">Cmoing soon!
 </code></pre>
 <!-- END GENERATED HTML HERE -->
 
